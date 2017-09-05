@@ -10,6 +10,8 @@
 		var hex_cord:Array = [[150,400],[150,650],[150,900],[150,1150],[2410,400],[2410,650],[2410,900],[2410,1150]];
 		
 		var selected:Vector.<String> = new Vector.<String>();
+		var turn:int = new int;
+		var locked:Vector.<String> = new Vector.<String>();
 
 			
 
@@ -27,6 +29,7 @@
 			}
 			
 			this.rotate_btn.addEventListener(MouseEvent.MOUSE_DOWN, rotateIt);
+			this.continue_btn.addEventListener(MouseEvent.MOUSE_DOWN, continueIt);
 			
 			i = -1
 			while (++i < hex_id.length) {
@@ -66,11 +69,25 @@
 			var i:int = -1;
 			while (++i < hex_id.length) {
 				if (hex_id[i].name != selected[0]){
-					hex_id[i].x = hex_cord[i][0];
-					hex_id[i].y = hex_cord[i][1];
-					hex_id[i].rotation = 0;
+					if (locked.indexOf(hex_id[i].name) == -1){
+						hex_id[i].x = hex_cord[i][0];
+						hex_id[i].y = hex_cord[i][1];
+						hex_id[i].rotation = 0;
+					} 
 				}
 			}
+		}
+		
+		private function continueIt (evt:MouseEvent):void{
+			locked.push(selected[0]);
+			if (turn == 1){
+				turn = 2;
+			} else {
+				turn = 1
+			}
+			trace(turn);
+			trace(locked);
+			
 		}
 		
 		
