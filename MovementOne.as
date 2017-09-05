@@ -10,7 +10,7 @@
 		var hex_cord:Array = [[150,400],[150,650],[150,900],[150,1150],[2410,400],[2410,650],[2410,900],[2410,1150]];
 		
 		var selected:Vector.<String> = new Vector.<String>();
-		var turn:int = new int;
+		var turn:int = 1;
 		var locked:Vector.<String> = new Vector.<String>();
 
 			
@@ -23,9 +23,6 @@
 			
 			var i:int = -1;
 			while (++i < hex_id.length) {
-				trace(hex_id[i].x);
-				trace(hex_id[i].y);
-				trace();
 			}
 			
 			this.rotate_btn.addEventListener(MouseEvent.MOUSE_DOWN, rotateIt);
@@ -39,7 +36,6 @@
 		}
 		
 		private function rotateIt(evt:MouseEvent):void {
-			trace("hit");
 			var i:int = -1;
 			while (++i < hex_id.length) {
 				if (hex_id[i].name == selected[0]){
@@ -50,11 +46,26 @@
 		}
 		
 		private function onStartDrag (evt:MouseEvent):void{
-			evt.target.startDrag();
-			selected.length = 0;
-			trace(evt.target.name);
-			selected.push(evt.target.name);
-			resetPieces ();
+			if (turn == 1){
+				if (evt.target.name == "hex1" || evt.target.name == "hex2" || evt.target.name == "hex3" || evt.target.name == "hex4") {
+					if (locked.indexOf(evt.target.name) == -1){
+						evt.target.startDrag();
+						selected.length = 0;
+						selected.push(evt.target.name);
+						resetPieces ();
+					}
+				}
+			} else {
+				if (evt.target.name == "hex5" || evt.target.name == "hex6" || evt.target.name == "hex7" || evt.target.name == "hex8") {
+					if (locked.indexOf(evt.target.name) == -1){
+						evt.target.startDrag();
+						selected.length = 0;
+						selected.push(evt.target.name);
+						resetPieces ();
+					}
+				}
+			}
+		
 
 			
 		}
@@ -85,8 +96,8 @@
 			} else {
 				turn = 1
 			}
-			trace(turn);
-			trace(locked);
+			trace("Player " + turn + "'s Turn");
+			
 			
 		}
 		
