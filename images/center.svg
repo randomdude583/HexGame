@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg8403"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="center.svg">
+  <defs
+     id="defs8405">
+    <linearGradient
+       id="linearGradient9046"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0aff00;stop-opacity:1;"
+         offset="0"
+         id="stop9048" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9039"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9041" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9032"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9034" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9024"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9026" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9000"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9002" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8994"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop8996" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8969"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop8971" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9046"
+       id="linearGradient9050"
+       x1="318.20194"
+       y1="454.8623"
+       x2="362.15349"
+       y2="454.8623"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="348.58437"
+     inkscape:cy="591.61434"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1819"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8408">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:url(#linearGradient9050);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.24015749;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 329.54883 436.45117 L 318.91797 454.86133 L 329.54883 473.27344 L 350.80859 473.27344 L 361.4375 454.86133 L 350.80859 436.45117 L 329.54883 436.45117 z M 340.17773 440.68945 A 14.173228 14.173228 0 0 1 354.35156 454.86133 A 14.173228 14.173228 0 0 1 340.17773 469.03516 A 14.173228 14.173228 0 0 1 326.00586 454.86133 A 14.173228 14.173228 0 0 1 340.17773 440.68945 z "
+       id="Sketch_w0000" />
+  </g>
+</svg>
